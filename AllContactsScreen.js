@@ -21,3 +21,10 @@ export default class AllContactsScreen extends Component {
         );
     }
 }
+
+const styles = StyleSheet.create({
+  icon: {
+    width: 26,
+    height: 26,
+  },
+});
