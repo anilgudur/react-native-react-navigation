@@ -4,17 +4,19 @@ import {
     Text,
     View,
 
-    Button
+    Button,
+    Image
 } from 'react-native';
 
 export default class RecentChatsScreen extends Component {
+
     static navigationOptions = {
         tabBarLabel: 'Recent',
         // Note: By default the icon is only shown on iOS. Search the showIcon option below.
         tabBarIcon: ({ tintColor }) => (
             <Image
-                source={require('./images/notify-icon.png')}
-                style={[styles.icon, {tintColor: tintColor}]}
+                source={require('../images/home.png')}
+                style={[styles.icon, {tintColor: 'black'}]}
             />
         ),
     };
